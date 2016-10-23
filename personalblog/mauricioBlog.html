@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://i.imgur.com/sZTW2vR.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: coral;
+        
+    }
+    h1 {
+      font-size: 70px;
+        color: aqua;
+        
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+        border-color: chartreuse;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+            
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      } 
+    }
+      h2 {
+          color: #D110D1;
+      }
+      
+      body {
+          background-color: #759792;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/Vd5aopg.png">
+    <h1>Mauricio's Blog</h1>
+    <ul>
+      <li><a href="http://www.facebook.com">Acerca de mi</a></li>
+      <li><a href="http://www.youtube.com">Videos</a></li>
+      <li><a href="https://dash.generalassemb.ly/">Proyectos</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Loren ipsum 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque reprehenderit atque porro laborum sint debitis illum sequi. Odio vero, impedit velit illum necessitatibus, debitis culpa, alias explicabo nihil delectus perspiciatis?</p>
+    <button>Me gusta</button>
+  </article>
+  <article>
+    <h2>Lorem ipsum 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, assumenda quam ut ratione tempore eos tempora deleniti aliquam aperiam illum reprehenderit qui laudantium dolorem ad aspernatur quis voluptas! Debitis!</p>
+    <button>Me gusta</button>
+  </article>
+  <article>
+    <h2>Lorem ipsum 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cupiditate quasi odit quia alias id assumenda explicabo ipsum, quos illum, repellendus culpa hic officiis minus aut saepe, cum omnis accusantium.</p>
+    <button>Me gusta</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
